@@ -67,39 +67,6 @@ PR-AUC	0.63
 🧰 Run Locally
 Clone the repository
 
-bash
-Copy code
-git clone https://github.com/<your-username>/06_CUSTOMER_CHURN.git
-cd 06_CUSTOMER_CHURN
-Install dependencies
-
-bash
-Copy code
-pip install -r Requirements.txt
-Run the app
-
-bash
-Copy code
-streamlit run App_streamlit.py
-Open in browser
-
-arduino
-Copy code
-http://localhost:8501
-🧮 Sample Prediction Inputs
-Feature	Example Value
-gender	Female
-SeniorCitizen	0
-Partner	Yes
-Dependents	No
-tenure	12
-PhoneService	Yes
-InternetService	Fiber optic
-Contract	Month-to-month
-PaymentMethod	Electronic check
-MonthlyCharges	70.5
-TotalCharges	1800.5
-
 The app returns:
 
 Churn prediction (Yes/No)
@@ -116,8 +83,6 @@ XGBoost
 Imbalanced-learn (SMOTE)
 
 Streamlit
-
-Joblib
 
 🧾 Requirements
 All dependencies are listed in Requirements.txt.
